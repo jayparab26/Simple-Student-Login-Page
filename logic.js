@@ -16,7 +16,7 @@ form.addEventListener('input', function(event) {
 
 // 2. ARROW FUNCTION: Validates field strings and prints confirmation panel
 form.addEventListener('submit', (e) => {
-    e.preventDefault(); // Stop standard form page refreshes
+   // e.preventDefault(); // Stop standard form page refreshes
     
     let isValid = true;
 
@@ -56,8 +56,9 @@ form.addEventListener('submit', (e) => {
         successBox.style.display = 'block';
         successBox.innerHTML = `<strong>Success!</strong> Student <b>${fullName}</b> has been successfully registered for <b>${course}</b>.`;
         
-        // Reset the form fields clear
-        form.reset();
+        setTimeout(()=>{
+            form.submit();
+        }, 1500);
     } else {
         successBox.style.display = 'none';
     }
