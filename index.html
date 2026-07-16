@@ -8,18 +8,18 @@
         <div class="form-container">
         <h2>Student Details</h2>
        
-        <form id="studentForm" novalidate>
+        <form id="studentForm" name="student-details" method="POST" data-netlify="true" novalidate>
             <!-- Full Name -->
             <div class="form-group">
                 <label for="fullName">Full Name</label>
-                <input type="text" id="fullName" placeholder="Your Name">
+                <input type="text" id="fullName" name="fullName" placeholder="Your Name">
                 <div class="error-message" id="nameError">Please enter your full name.</div>
             </div>
 
             <!-- Date of Birth -->
             <div class="form-group">
                 <label for="dob">Date of Birth</label>
-                <input type="date" id="dob">
+                <input type="date" id="dob" name="dob">
                 <div class="error-message" id="dobError">Please select your date of birth.</div>
             </div>
 
