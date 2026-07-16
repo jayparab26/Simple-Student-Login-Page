@@ -33,7 +33,7 @@ This project cleanly splits event responsibilities utilizing two core types of f
 ## 🚀 How to Run Locally
 
 1. Clone or download this repository to your desktop machine.
-2. Extract the file & Open the file "Simple-Student-Login-Page-main".
+2. Extract the file & Open the file `Simple-Student-Login-Page-main`.
 3. Under this folder you will see various files.
 4. Double-click the `index.html` file to launch the form inside any modern web browser (Chrome, Firefox, Safari, Edge).
 
