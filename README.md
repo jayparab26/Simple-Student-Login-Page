@@ -7,12 +7,9 @@ A clean, responsive, and modern Student Details Form built using vanilla web tec
 The project files are organized cleanly across dedicated template and asset folders inside the root directory:
 
 ```text
-jay/
-├── asset/
-│   ├── style.css      # Custom sky-blue styling and animations
-│   └── script.js      # Form validation and interactivity
-└── template/
-    └── index.html     # HTML5 Form layout structure
+├── index.html     # HTML5 Form layout structure
+├── style.css      # Custom sky-blue styling and animations
+└── script.js      # Form validation and interactivity
 ```
 
 ## ✨ Features
